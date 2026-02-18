@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ILMORA - Global Education Platform connecting students with world-class universities">
+    <meta name="keywords" content="education, university, admission, global education">
+    <title>ILMORA - Global Education Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <img src="images/logo.png" alt="ILMORA Logo" class="navbar-logo">
+                <span class="brand-name">ILMORA</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#universities" class="nav-link">Universities</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Typing Animation -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="typing-container">
+                <h1 class="typing-text">Your Gateway to Global Education</h1>
+            </div>
+            <p class="hero-subtitle fade-in">Connect with world-class universities and unlock your potential</p>
+            <button class="cta-button pulse-button">Start Your Journey</button>
+        </div>
+        <div class="hero-background">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2 class="section-title slide-in-left">Why Choose ILMORA?</h2>
+            <div class="about-grid">
+                <div class="about-card lift-on-hover">
+                    <div class="card-icon">🎓</div>
+                    <h3>World-Class Education</h3>
+                    <p>Access to leading universities across the globe</p>
+                </div>
+                <div class="about-card lift-on-hover">
+                    <div class="card-icon">🌍</div>
+                    <h3>Global Network</h3>
+                    <p>Connect with students and institutions worldwide</p>
+                </div>
+                <div class="about-card lift-on-hover">
+                    <div class="card-icon">📈</div>
+                    <h3>Career Growth</h3>
+                    <p>Accelerate your professional development</p>
+                </div>
+                <div class="about-card lift-on-hover">
+                    <div class="card-icon">💡</div>
+                    <h3>Innovation</h3>
+                    <p>Learn from cutting-edge programs and experts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Counter Section -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3 class="counter" data-target="5000">0</h3>
+                <p>Students Helped</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="25">0</h3>
+                <p>Partner Universities</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="15">0</h3>
+                <p>Years of Excellence</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="98">0</h3>
+                <p>Success Rate %</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Universities Section -->
+    <section id="universities" class="universities">
+        <h2 class="section-title">Our Partner Universities</h2>
+        <div class="universities-grid">
+            
+            <div class="university-card flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://glocaluniversity.edu.in/images/logo.png" alt="GLocal University" class="uni-logo">
+                        <h3>GLocal University</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Bridging global education with local relevance</p>
+                        <a href="https://glocaluniversity.edu.in" target="_blank" class="uni-link">Visit Website →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="university-card flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://arniuniversity.edu.in/images/logo.png" alt="Arni University" class="uni-logo">
+                        <h3>Arni University</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Advancing knowledge through excellence</p>
+                        <a href="https://arniuniversity.edu.in" target="_blank" class="uni-link">Visit Website →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="university-card flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://rguniversity.edu.in/images/logo.png" alt="RG University" class="uni-logo">
+                        <h3>RG University</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Excellence in teaching and research</p>
+                        <a href="https://rguniversity.edu.in" target="_blank" class="uni-link">Visit Website →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="university-card flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://rntu.ac.in/images/logo.png" alt="RNTU" class="uni-logo">
+                        <h3>RNTU</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Transforming minds, shaping futures</p>
+                        <a href="https://rntu.ac.in" target="_blank" class="uni-link">Visit Website →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="university-card flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://www.aku.ac.in/images/logo.png" alt="AKU" class="uni-logo">
+                        <h3>Aga Khan University</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Education for global excellence</p>
+                        <a href="https://www.aku.ac.in" target="_blank" class="uni-link">Visit Website →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="university-card flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://www.neftu.edu.in/images/logo.png" alt="NEFTU" class="uni-logo">
+                        <h3>NEFTU</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Empowering learners globally</p>
+                        <a href="https://www.neftu.edu.in" target="_blank" class="uni-link">Visit Website →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="university-card flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://www.osgu.ac.in/images/logo.png" alt="OSGU" class="uni-logo">
+                        <h3>OSGU</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Quality education for all</p>
+                        <a href="https://www.osgu.ac.in" target="_blank" class="uni-link">Visit Website →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="university-card flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="https://www.lingayasvidyapeeth.edu.in/images/logo.png" alt="Lingayas Vidyapeeth" class="uni-logo">
+                        <h3>Lingayas Vidyapeeth</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Knowledge for humanity</p>
+                        <a href="https://www.lingayasvidyapeeth.edu.in" target="_blank" class="uni-link">Visit Website →</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-box">
+                    <h3>📍 India Office</h3>
+                    <p>Visit our office for personalized guidance</p>
+                    <p class="highlight-text">Contact: Available on request</p>
+                </div>
+                <div class="contact-box">
+                    <h3>🌐 UAE Office</h3>
+                    <p>Your trusted education partner in the Middle East</p>
+                    <p class="highlight-text">
+                        <a href="tel:+971529682123" class="contact-link">+971 52 968 2123</a>
+                    </p>
+                    <a href="https://wa.me/971529682123?text=Hello%20ILMORA%20team" target="_blank" class="whatsapp-btn">
+                        💬 WhatsApp Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 ILMORA - Global Education Platform. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Privacy Policy</a>
+                <a href="#home">Terms of Service</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
